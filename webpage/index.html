@@ -1,76 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Example app</title>
-    <meta name="description" content="" />
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/gradients.css" rel="stylesheet">
+	<meta charset="utf-8">
+    <!-- david code  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Start-up incubée par Allianz France qui vous décharge de la gestion et de l’optimisation de vos contrats d’assurance, de télécom et d’énergie tout au long de votre vie.">
+    <meta name="keywords" content="">
+    <meta name="author" content="David NGUYEN">
+    <meta name="robots" content="all">
+    <link rel="canonical" href="https://www.balio.fr/index.html">
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+
+
+
+
+	 <title>Balio - La plateforme digitale qui prend le relais pour vous faire gagner du temps et de l’argent ! </title>
+	 <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Balio - La plateforme digitale qui prend le relais pour vous faire gagner du temps et de l’argent !">
+    <meta name="twitter:url" content="https://www.balio.fr/">
+    <meta name="twitter:description" content="Start-up incubée par Allianz France qui vous décharge de la gestion et de l’optimisation de vos contrats d’assurance, de télécom et d’énergie tout au long de votre vie.">
+    <meta name="twitter:image" content="https://www.balio.fr/assets/img/logo-site.png">
+    <meta property="og:title" content="Balio - La plateforme digitale qui prend le relais pour vous faire gagner du temps et de l’argent !" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.balio.fr/" />
+    <meta property="og:image" content="https://www.balio.fr/assets/img/logo-site.png" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- favicon -->
+<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+<!-- favicon -->
+<!-- build:css -->
+<link rel="stylesheet" href="css/libs/bootstrap.min.css">
+<link rel="stylesheet" href="css/libs/font-awesome.min.css">
+<link rel="stylesheet" href="css/libs/animate.min.css">
+<link rel="stylesheet" href="css/libs/slick.css">
+<link rel="stylesheet" href="css/libs/magnific-popup.css">
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="css/balio.css">
+<!-- endbuild -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- <style>body { opacity:s 0; overflow-x: hidden; } html { background-color: #fff; }</style> -->
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" class="loaded">
+<!-- Preloader -->
+<div class="preloader">
+	<div class="cssload-spinner">
+		<div class="cssload-ball cssload-ball-1"></div>
+		<div class="cssload-ball cssload-ball-2"></div>
+		<div class="cssload-ball cssload-ball-3"></div>
+		<div class="cssload-ball cssload-ball-4"></div>
+	</div>
+</div>
+<!-- Preloader -->
+<div class="site-content">
+	<!-- Naviigation -->
+	<div class="navbar-wrap">
+		<div class="navbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<nav class="navbar-menu">
+							<div class="navbar-header">
+								<div class="nav-button main-button menu-mobile">
+									<a href="#" class="btn btn-nav btn-block" role="button" data-toggle="modal" data-target="#ModalLogin">
+										Espace membres
+									</a>
+								</div>
+							</div>
+							<div class="logo-navbar">
+								<a href="#header" data-toggle="collapse" ><img src="img/logo.svg" alt="logo"></a>
+							</div>
+							<div class="navbar-full">
+								<div class="collapse bs-example-js-navbar-scrollspy">
+									<!--
+									<ul class="nav navbar-nav">
+										<li style="display: none;"><a></a></li>
+										<li><a href="#about">Accueil</a></li>
+										<li><a href="#services">NOTRE SOLUTION</a></li>
+										<li><a href="#video">QUI SOMMES-NOUS ?</a></li>
+										<li><a href="#team">Team</a></li>
+										<li><a href="#questions">Questions</a></li>
+										<!-- <li><a href="#subscribe">Subscribe</a></li> --
+										<li><a href="#contact">Contact us</a></li>
+										<li>
+										</li>
+									</ul>-->
+									<!-- btn -->
+									<div class="nav-button main-button menu-des">
+										<a href="#" class="btn btn-nav btn-block" role="button" data-toggle="modal" data-target="#ModalLogin">
+											Espace membres
+										</a>
+									</div>
+									<!-- btn -->
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Naviigation -->
+	<!-- Header -->
+	<a class="anchor" id="header"></a>
+	<div class="spaceie"></div>
+	<header class="header  background-balio1">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-7 col-md-6 col-sm-12 col-xs-offset-1 mobile-balio">
+					<img src="img/browser.jpg"
+     srcset="img/browser@2x.jpg 2x,
+             img/browser@3x.jpg 3x"
+     class="browser">
+				</div>
+				<div class=" col-lg-5 col-md-6 col-sm-offset-0 col-sm-8 col-xs-offset-1 col-xs-10">
+					<div class="header-slogan">
 
-<body class="">
-    <div class="wrapper">
-        <div class="graphics">
-            <div class="tower">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="-11 170 1000 429" enable-background="new -11 170 1000 429" xml:space="preserve">
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M989,595H712v-35c0,0,4.5-1.8,8-3
-                                                                                                  c5.2-1.8,12.5,5.3,22-4c3.4-3.4-0.9-7.8-0.4-10.1c0.7-3.1,4.4-6.8,1.6-11.4c-2.6-4.2-6.9-3.6-8.2-5.5c-1.7-2.3-2.2-6.3-7-9
-                                                                                                  c-5.6-3.1-9.9,0.2-13-1c-2.5-0.9-2.3-5-9-5c-4.8,0-7.2,4.8-10,5c-2.3,0.2-4.9-4.5-10-2c-5.5,2.8-4,7.3-6,9c-1.4,1.2-3.1,3.2-6,4.2
-                                                                                                  c-2.6,0.9-4.9,3-4,8.8c0.6,3.7,6.8,4.1,7.5,6c1,2.9-6.4,6.2-2.5,12c3,4.5,9,1.6,12,1c1.9-0.4,7.1-0.7,8,0c3.4,2.5,9,5,9,5v35
-                                                                                                  l-506-1.5L182.3,444l0.3-0.8v-69.6l-0.2-0.2l12.3-72.3c10.9-2.6,16.5-6.5,16.5-6.5l-5.2-2.9l1.1-5.8l15-3.3l-10.1-3.9l1.2-4.6
-                                                                                                  c-15.8-8.3-32.2-11-32.2-11v-3.6l4.1-6.5h-4.9v-4.4h-8.3V244h-1.2l-1.7-31.2l-1-1.3l-1,1.3l-1.7,31.2h-1.2v4.8h-8.3v4.4h-4.9
-                                                                                                  l4.1,6.5v3.6c0,0-16.5,2.7-32.2,11l1.2,4.6l-10.1,3.9l15,3.3l1.1,5.8l-5.1,2.9c0,0,5.5,3.9,16.4,6.5l12.3,72.4l-0.1,0.1v69.6
-                                                                                                  l0.3,0.8l-14.6,149.4h-1.2H-11"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M8,393.7c0-13.5,12.1-10.8,15.6-14.7
-                                                                                                  c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1
-                                                                                                  c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1
-                                                                                                  c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C21.9,406.3,8,408.6,8,393.7z"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M325.1,313.9c-3.9,3-3.9,10-15.7,11.8
-                                                                                                  c-12.8,2-13.3-6.4-18-6.3c-4.3,0.1-5.7,5.8-13.3,3.9c-8.4-2.1-9.1-8.8-12.5-11c-3.6-2.3-16.5,1.5-16.5-10.2c0-12.4,12-9.1,14.1-13.3
-                                                                                                  c1.1-2.3-1.3-5.6,2.4-9.4c5.8-6,10.4-2.1,13.3-3.9c3.4-2.1,2-10,14.1-10.2c11-0.2,9.9,6,14.1,6.3c3.3,0.2,5-4.7,12.5-0.8
-                                                                                                  c9.6,4.9,6,10.3,8.6,13.3c3.3,3.7,14.9,1.2,14.9,14.1C343.1,312.5,329.8,310.3,325.1,313.9z"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M18.4,229.5c0-13.5,12.1-10.8,15.6-14.7
-                                                                                                  c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1
-                                                                                                  c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1
-                                                                                                  c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C32.2,242.1,18.4,244.4,18.4,229.5z"/>
-                    <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M215.8,398.8c0-13.5,12.1-10.8,15.6-14.7
-                                                                                                  c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1
-                                                                                                  c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1
-                                                                                                  c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C229.7,411.3,215.8,413.6,215.8,398.8z"/>
-                </svg>
+						<div class="header-slogan-centered row">
+							<h1 class="col-md-10">Atteint de phobie administrative ?<br class="disable"/><span> Balio est fait pour vous !</span></h1>
+							<p class="col-md-11">Nous vous déchargeons de la comparaison des offres, de la souscription et de toute la paperasse de vos contrats d'énergie, de télécoms et d'assurance tout au long de votre vie.</p>
+							<div class="header-btns">
+								<!-- btn -->
+								<div class="header-button main-button">
+									<a href="devenir-client.html" class="btn btn-default btn-block" role="button">
+										C'est parti !
+									</a>
+								</div>
+								<!-- btn -->
+							</div>
+						</div>
+					</div>
+				</div>
 
-            </div>
-        </div>
+				<div class="col-sm-12 col-md-6 col-lg-7 desktop-balio">
+					<img src="img/browser.jpg"
+     srcset="img/browser@2x.jpg 2x,
+             img/browser@3x.jpg 3x"
+     class="browser">
+				</div>
 
-        <header>
-            <nav class="website-nav">
-                <ul>
-                    <li><a class="home-link" href="https://aws.amazon.com/">Home</a></li>
-                    <li><a href="https://aws.amazon.com/what-is-cloud-computing/">About</a></li>
-                    <li><a href="https://aws.amazon.com/solutions/">Services</a></li>
-                    <li><a href="https://aws.amazon.com/contact-us/">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <div class="message">
-            <a class="twitter-link" href="http://twitter.com/home/?status=I%20created%20a%20project%20with%20AWS%20CodeStar!%20%23AWS%20%23AWSCodeStar%20https%3A%2F%2Faws.amazon.com%2Fcodestar"><img src="img/tweet.svg" /></a>
-            <div class="text">
-                <h1>Congratulations!</h1>
-                <h2>You just created an HTML5 web application</h2>
-            </div>
-        </div>
-    </div>
+			</div>
+		</div>
 
-    <footer>
-        <p class="footer-contents">Designed and developed with
-            <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.
-        </p>
-    </footer>
+	</header>
+	<!-- Header -->
+	<div class="menu-sticky"></div>
 
-    <script src="js/set-background.js"></script>
+	<!-- Team -->
+	<a class="anchor" id="team"></a>
+	<section class="team">
+		<div class="team-wrap">
+				<!-- /.row -->
+				<div class="row">
+					<div class="team-slider slider">
+
+						<div class="sliderelement">
+							<div class="team-container">
+								<div class="team-container-item">
+									<img src="img/icons/ico-espace-client.svg" class="icon p-l-30">
+									<div class="team-container-item-text p-l-30">
+										<h3>Un espace client unique </h3>
+										<p>Avec Balio retrouvez en un clin d'oeil tous vos contrats et options !</p>
+									</div>
+								</div>
+								<!-- /.team-container-item -->
+							</div>
+							<!-- /.team-container -->
+						</div>
+						<!-- /.col-md-2 col-lg-2 -->
+
+						<div class="sliderelement">
+							<div class="team-container">
+								<div class="team-container-item">
+
+									<img src="img/icons/ico-paperasse.svg" class="icon p-l-30">
+									<div class="team-container-item-text p-l-30">
+										<h3>Zéro paperasse !</h3>
+										<p> Balio s'occupe de tout ! de la souscription à la résiliation, en passant par l'optimisation de vos contrats à chaque fois que nécessaire</p>
+									</div>
+								</div>
+								<!-- /.team-container-item -->
+							</div>
+							<!-- /.team-container -->
+						</div>
+						<!-- /.col-md-2 col-lg-2 -->
+
+						<div class="sliderelement">
+							<div class="team-container">
+								<div class="team-container-item">
+
+									<img src="img/icons/ico-comprendre.svg" class="icon p-l-30">
+									<div class="team-container-item-text p-l-30">
+										<h3>Mieux comprendre vos contrats !</h3>
+										<p>Balio analyse vos contrats actuels besoins et priorités</p>
+									</div>
+								</div>
+								<!-- /.team-container-item -->
+							</div>
+							<!-- /.team-container -->
+						</div>
+						<!-- /.col-md-2 col-lg-2 -->
+
+						<div class="sliderelement">
+							<div class="team-container">
+								<div class="team-container-item">
+
+									<img src="img/icons/ico-temps.svg" class="icon p-l-30">
+									<div class="team-container-item-text p-l-30">
+										<h3>Ne perdez plus de temps à comparer les offres </h3>
+										<p>Balio apprend à vous connaître et recherche en permanence les contrats qui vous ressemblent </p>
+									</div>
+								</div>
+								<!-- /.team-container-item -->
+							</div>
+							<!-- /.team-container -->
+						</div>
+						<!-- /.col-md-2 col-lg-2 -->
+
+						<div class="sliderelement">
+							<div class="team-container">
+								<div class="team-container-item">
+
+									<img src="img/icons/ico-economie.svg" class="icon p-l-30">
+									<div class="team-container-item-text p-l-30">
+										<h3>Des économies sans perdre en qualité </h3>
+										<p>Balio optimise vos contrats et options avant que vous ne vous posiez la question</p>
+									</div>
+								</div>
+								<!-- /.team-container-item -->
+							</div>
+							<!-- /.team-container -->
+						</div>
+						<!-- /.col-md-2 col-lg-2 -->
+					</div>
+					<!-- /.team-slider -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.directions-wrap -->
+	</section>
+	<!-- Team -->
+
+
+
+	<!-- Screen-one -->
+	<div class="screen-one">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6">
+					<div class="screen-one-title">
+						<h2>Comment ça marche ?</h2>
+						<p>Nous vous déchargeons de la comparaison des offres, de la souscription et de toute la paperasse de vos contrats d'énergie, de télécoms et d'assurance.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container
+		<div class="container">
+			<div class="screen-one-image">
+				<div style="background-image: url(img/screen-1.jpg); background-position:left top; background-size: cover; background-repeat:no-repeat;"></div>
+			</div>
+		</div>
+		 /.container -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-10">
+
+					<div class="row">
+						<div class="col-md-4 col-sm-5">
+							<div class="screen-one-item os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+								<div class="num">01</div>
+								<div class="screen-one-item-container">
+									<h4>Besoins</h4>
+									<p>Vous nous faites part de vos besoins et de vos priorités.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5  col-sm-5">
+							<img src="img/icons/illus-01.svg" class="illus" alt="Balio Besoins" title="Balio Besoins">
+						</div>
+					</div>
+
+					<!-- /.screen-one-item -->
+
+					<div class="row desktop-balio">
+						<div class="col-md-5">
+							<img src="img/icons/illus-02.svg" class="illus" alt="Balio Analyse" title="Balio Analyse">
+						</div>
+						<div class="col-md-offset-1 col-md-4">
+							<div class="screen-one-item os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+								<div class="num">02</div>
+								<div class="screen-one-item-container">
+									<h4>Analyse</h4>
+									<p>Balio analyse vos contrats actuels pour valider leur adéquation à vos besoins.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row mobile-balio">
+
+						<div class="col-md-offset-1 col-md-4  col-sm-5">
+							<div class="screen-one-item os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+								<div class="num">02</div>
+								<div class="screen-one-item-container">
+									<h4>Analyse</h4>
+									<p>Balio analyse vos contrats actuels pour valider leur adéquation à vos besoins.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5  col-sm-5">
+							<img src="img/icons/illus-02.svg" class="illus" alt="Balio Analyse" title="Balio Analyse">
+						</div>
+
+					</div>
+					<!-- /.screen-one-item -->
+					<div class="row">
+						<div class="col-md-4  col-sm-5">
+							<div class="screen-one-item os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+								<div class="num">03</div>
+								<div class="screen-one-item-container">
+									<h4>Propositions</h4>
+									<p>Balio vous propose des actions d'optimisation sur votre offre actuelle ou vers un fournisseur plus pertinent.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-offset-1 col-md-5  col-sm-5">
+							<img src="img/icons/illus-03.svg" class="illus" alt="Balio Propositions" title="Balio Propositions">
+						</div>
+					</div>
+					<!-- /.screen-one-item -->
+
+					<div class="row desktop-balio">
+						<div class="col-md-5">
+							<img src="img/icons/illus-04.svg" class="illus" alt="Balio delegations" title="Balio delegations">
+						</div>
+						<div class="col-md-offset-1 col-md-4  col-sm-5">
+							<div class="screen-one-item os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+								<div class="num">04</div>
+								<div class="screen-one-item-container">
+									<h4>Délégations</h4>
+									<p>Vous décidez des contrats que vous souhaitez nous confier et Balio s'occupe de tout, résiliation, suivi, relances,...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row mobile-balio">
+
+						<div class="col-md-offset-1 col-md-4  col-sm-5">
+							<div class="screen-one-item os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+								<div class="num">04</div>
+								<div class="screen-one-item-container">
+									<h4>Délégations</h4>
+									<p>Vous décidez des contrats que vous souhaitez nous confier et Balio s'occupe de tout, résiliation, suivi, relances,...</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-5 col-sm-5">
+							<img src="img/icons/illus-04.svg" class="illus" alt="Balio delegations" title="Balio delegations">
+						</div>
+					</div>
+					<!-- /.screen-one-item -->
+					<div class="row">
+						<div class="col-md-4  col-sm-5">
+							<div class="screen-one-item os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+								<div class="num">05</div>
+								<div class="screen-one-item-container">
+									<h4>Veille</h4>
+									<p>Balio adapte vos contrats aux évolutions de votre vie et du marché.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-offset-1 col-md-5 col-sm-5">
+							<img src="img/icons/illus-05.svg" class="illus" alt="Balio Veille" title="Balio Veille">
+						</div>
+					</div>
+					<!-- /.screen-one-item -->
+					<!-- /.screen-one-item -->
+					<!-- btn -->
+					<div class=" col-md-3 col-md-offset-3 screen-one-button main-button  os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.3s">
+						<a href="devenir-client.html" class="btn btn-default btn-block" role="button">
+							C'est parti !
+						</a>
+					</div>
+					<!-- btn -->
+				</div>
+				<!-- /.col-md-6 -->
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- Screen-one -->
+
+
+</div>
+<!-- Site content -->
+<!-- Modal -->
+<div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="ModalLoginTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLoginLongTitle">Se connecter</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+	      <div class="modal-body">
+					<form action="" method="post" role="form">
+						<div class="row">
+							<div class="col-md-offset-1 col-md-10">
+								<label for="email">Votre mail</label>
+								<div class="contact-form-input">
+									<input name="email" type="email" tabindex="1" required="" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Votre email'" placeholder="jean.maurice@gmail.com">
+								</div>
+							</div>
+							<!-- /.col-md-6 -->
+						</div>
+						<!-- /.row -->
+						<div class="row">
+							<div class="col-md-offset-1 col-md-10">
+								<label for="email">Mot de passe</label>
+								<div class="contact-form-input">
+									<input type="password" tabindex="2" required="" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Votre mot de passe'" placeholder="*****">
+								</div>
+							</div>
+						</div>
+						<!-- /.row -->
+						<div class="row">
+						<!-- btn -->
+						<div class="col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-9 contact-form-button main-button">
+							<button role="button" name="submit" type="submit" data-submit="...Sending" class="btn btn-default btn-block">
+								Valider
+							</button>
+						</div>
+						<!-- btn -->
+					</form>
+	      </div>
+    	</div>
+  	</div>
+	</div>
+</div>
+<!-- Modal -->
+
+
+<!-- Footer -->
+<a class="anchor" id="footer"></a>
+<div class="footerb">
+	<div class="footer-wrap">
+		<div class="container-fluid">
+			<div class="">
+				<div class="col-md-offset-1 col-md-2">
+					<img src="img/logo.svg" alt="">
+				</div>
+
+				<div class="col-md-5 col-sm-6 col-xs-12 adress">
+					<div class="">
+						<b>Email : </b> contact@balio.fr
+					</div>
+
+					<div class="">
+						</br>
+						<b>Adresse :</b></br>
+						<p>Balio - Allianz Lab° - Case courrier S2001 - 1 Cours Michelet - </br>
+						CS 30051 - 92076 Paris La Défense Cedex</p>
+
+					</div>
+				</div>
+
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a class="liens" href="mention-legale.html">Données personelles</a>
+				</br>
+					<a class="liens" href="mention-legale.html">Cookies</a>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-6">
+					<a class="liens" href="#">Qui sommes-nous ?</a>
+					</br>
+					<a class="liens" href="fournisseurs.html">Nos fournisseurs</a>
+				</div>
+				<div class="col-sm-12 col-xs-12 copyri">
+					© 2018 Balio inc. All Rights Reserved.
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+
+	</div>
+	<!-- /.directions-wrap -->
+</div>
+<!-- Footer -->
+
+<!-- build:js -->
+<script src="js/libs/jquery.min.js"></script>
+<script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/libs/waypoints.min.js"></script>
+<script type="text/javascript" src="js/libs/slick.min.js"></script>
+<script type="text/javascript" src="js/libs/magnific-popup.min.js"></script>
+
+<script type="text/javascript" src="js/common.js"></script>
+<!-- endbuild -->
+<!-- links -->
 </body>
-
 </html>
