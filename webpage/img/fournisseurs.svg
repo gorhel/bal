@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="605" height="483" viewBox="0 0 605 483">
+    <defs>
+        <filter id="a" width="242.9%" height="246.7%" x="-71.5%" y="-73.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="b" width="242.9%" height="246.7%" x="-71.5%" y="-73.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="c" width="242.9%" height="246.7%" x="-71.5%" y="-73.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <g stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+            <path d="M130 321.34L259 218l129 103.34"/>
+            <path d="M336.463 279.838V253.81h20.7v226.12H160.837V300.274M135.14 480.442h247.72"/>
+            <path d="M259.003 299.538c8.8 0 15.935 7.135 15.935 15.936v30.874h-31.87v-30.874c0-8.801 7.134-15.936 15.935-15.936zM238.512 346.348h40.976v9.06h-40.976zM238.512 471.675h39.459v7.55h-39.459zM243.068 464.125h31.871v6.795h-31.871zM259.003 405.236c8.8 0 15.935 7.135 15.935 15.936v42.953h-31.87v-42.953c0-8.801 7.134-15.936 15.935-15.936z"/>
+        </g>
+        <g filter="url(#a)" transform="matrix(-1 0 0 1 548 196)">
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M146 0H10C4.477 0 0 4.477 0 10v104.73c0 5.522 4.477 10 10 10h63.942l43.93 27.27v-27.27H146c5.523 0 10-4.478 10-10V10c0-5.523-4.477-10-10-10z"/>
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M52.904 44.786c7.29 0 15.655-4.524 25.096-13.572 8.365 9.048 16.73 13.572 25.096 13.572v24.428c0 10.58-8.366 19.627-25.096 27.143-16.73-7.516-25.096-16.564-25.096-27.143V44.786z"/>
+            <path fill="#208CED" d="M57.904 46.786c7.29 0 15.655-4.524 25.096-13.572 8.365 9.048 16.73 13.572 25.096 13.572v24.428c0 10.58-8.366 19.627-25.096 27.143-16.73-7.516-25.096-16.564-25.096-27.143V46.786z" style="mix-blend-mode:darken"/>
+        </g>
+        <g filter="url(#b)" transform="translate(57 261)">
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M10 0h136c5.523 0 10 4.477 10 10v104.73c0 5.522-4.477 10-10 10h-23.246L125.52 152l-46.696-27.27H10c-5.523 0-10-4.478-10-10V10C0 4.477 4.477 0 10 0z"/>
+            <g stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" transform="translate(43.409 35.286)">
+                <rect width="67.826" height="19" y="38" fill="#FFF" rx="4"/>
+                <path d="M10.174 38V9.715M17.253 12.144a6.588 6.588 0 0 0 .55-2.644c0-1.101-.27-2.142-.75-3.061"/>
+                <ellipse cx="60.365" cy="45.464" rx="2.035" ry="2.036"/>
+                <path d="M22.457 15.168c1.018-1.694 1.595-3.622 1.595-5.668 0-2.23-.685-4.32-1.88-6.119M27.612 17.807C29.319 15.375 30.3 12.534 30.3 9.5c0-3.49-1.297-6.722-3.504-9.372"/>
+            </g>
+            <circle cx="75.5" cy="46.5" r="32.5" fill="#0DCAD4" style="mix-blend-mode:darken"/>
+        </g>
+        <g filter="url(#c)" transform="matrix(-1 0 0 1 332 55)">
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M146 0H10C4.477 0 0 4.477 0 10v104.73c0 5.522 4.477 10 10 10h43.594L74.463 152l23.06-27.27H146c5.523 0 10-4.478 10-10V10c0-5.523-4.477-10-10-10z"/>
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M67.826 73.286H89.53v13a6 6 0 0 1-6 6h-9.704a6 6 0 0 1-6-6v-13z"/>
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M89.53 74.643c0-12.289 10.853-12.289 10.853-27.143 0-11.992-9.718-21.714-21.705-21.714-11.987 0-21.704 9.722-21.704 21.714 0 14.854 10.852 14.854 10.852 27.143H89.53z"/>
+            <path stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M74.609 92.286h8.139v1.359a4.07 4.07 0 1 1-8.14 0v-1.36zM88.852 82.786H69.007M81.391 32.571c-9.74 0-17.634 7.9-17.634 17.643"/>
+            <path fill="#12C890" d="M81.53 74.643c0-12.289 10.853-12.289 10.853-27.143 0-11.992-9.718-21.714-21.705-21.714-11.987 0-21.704 9.722-21.704 21.714 0 14.854 10.852 14.854 10.852 27.143H81.53z" style="mix-blend-mode:darken"/>
+        </g>
+        <g stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" transform="translate(393 405)">
+            <path fill="#FFF" d="M23.188 23.31h68.624c8.837 0 16 7.164 16 16v18.5a3 3 0 0 1-3 3H10.189a3 3 0 0 1-3-3v-18.5c0-8.836 7.163-16 16-16zM14.375 60.81H28.75v7.002a7.188 7.188 0 0 1-14.375 0v-7.001zM86.25 60.81h14.375v7.002a7.188 7.188 0 0 1-14.375 0v-7.001z"/>
+            <path fill="#FFF" d="M31.696 0h51.608a4 4 0 0 1 3.704 2.49l8.483 20.82H19.51l8.483-20.82A4 4 0 0 1 31.696 0zM14.375 20.09v-3.874H4.792C2.145 16.216 0 18.258 0 20.777a4.56 4.56 0 0 0 4.56 4.56H14.376V20.09zM100.625 20.09v-3.874h9.583c2.647 0 4.792 2.042 4.792 4.561a4.56 4.56 0 0 1-4.56 4.56H100.624V20.09z"/>
+            <ellipse cx="23.616" cy="39.527" rx="7.188" ry="7.095"/>
+            <ellipse cx="91.384" cy="39.527" rx="7.188" ry="7.095"/>
+            <path d="M9.4 49.155h96.595M31.146 38.007h52.708M50.655 8.108h11.77M44.152 38.514v10.135M53.393 38.514v10.135M62.634 38.514v10.135M71.875 38.514v10.135"/>
+        </g>
+    </g>
+</svg>
