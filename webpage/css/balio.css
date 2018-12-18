@@ -3,9 +3,9 @@
 
 /*a supprimer */
 /* ###### Bailo ###### */
-@font-face {font-family: "NimbusSan-Reg";src: url("../fonts/Nimbus/NimbusSan-Reg.otf");}
-@font-face {font-family: "NimbusSan-Bol";src: url("..//fonts/Nimbus/NimbusSan-Bol.ttf");font-weight:900;}
-@font-face {font-family: "Merriweather-Light";src: url("..//fonts/Merriweather/Merriweather-Light.ttf");font-weight:300;}
+@font-face {font-family: "NimbusSan-Reg";src: url("../fonts/Nimbus/NimbusSan-Reg.otf");font-display: auto;}
+@font-face {font-family: "NimbusSan-Bol";src: url("..//fonts/Nimbus/NimbusSan-Bol.ttf");font-weight:900;font-display: auto;}
+@font-face {font-family: "Merriweather-Light";src: url("..//fonts/Merriweather/Merriweather-Light.ttf");font-weight:300;font-display: auto;}
 body{background: #F9F9F9;width: 100vw;font-family: "NimbusSan-Reg";color:#676767;}
 .menu-desktop{display: block;}
 .menu-mobile{display: none!important;}

@@ -27,17 +27,20 @@
 	font-family: "Merriweather-Light";
 	src: url("..//fonts/Merriweather/Merriweather-Light.ttf");
 	font-weight:300;
+	font-display: auto;
 }
 @font-face {
 		font-family: "NimbusSan-Reg";
 	src: url("../fonts/Nimbus/NimbusSan-Reg.otf");
 	font-weight: normal;
+	font-display: auto;
 }
 
 @font-face {
 	font-family: "FontAwesome";
   font-weight: normal;
   font-style: normal;
+	font-display: auto;
   src: url("../fonts/FontAwesome/fontawesome-webfont.eot");
   src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype");
 }
