@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+    <defs>
+        <filter id="a" width="568.1%" height="568.1%" x="-234%" y="-234%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="b" width="282.5%" height="210.2%" x="-91.6%" y="-55.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="c" width="407%" height="407%" x="-152.1%" y="-152.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="transparent" d="M0 0h500v350H0z"/>
+        <g stroke="#0C4171" stroke-width="4">
+            <g opacity=".4">
+                <path fill="#FFF" d="M306 134c-9.941 0-18 8.059-18 18v110c0 9.941 8.059 18 18 18h72c9.941 0 18-8.059 18-18v-93.81L361.565 134H306z"/>
+                <path d="M393.261 168L363 136.921V168h30.261z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M302.889 183h30.689M302.889 194h30.689M302.889 206h30.689M302.889 217h30.689"/>
+            </g>
+            <g stroke-linecap="round" stroke-linejoin="round" filter="url(#a)" transform="translate(319 185)">
+                <circle cx="23.5" cy="23.5" r="23.5" fill="#FFF"/>
+                <path d="M17.863 28.501L29.5 16.863M29.501 28.501L17.863 16.863 29.5 28.5z"/>
+            </g>
+        </g>
+        <g filter="url(#b)" transform="translate(103 68)">
+            <path fill="#FFF" stroke="#0C4171" stroke-width="4" d="M20 2.446c-9.941 0-18 8.058-18 18v173.886c0 9.94 8.059 18 18 18h120c9.941 0 18-8.06 18-18V51.695l-49.695-49.25H20z"/>
+            <path stroke="#0C4171" stroke-width="4" d="M155.18 51.917L108.667 5.283v46.634h46.513z"/>
+            <path stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M24 72.632h43.326M24 88.674h43.326M24 104.715h43.326M24 120.756h43.326"/>
+            <g filter="url(#c)" transform="translate(43 71)">
+                <circle cx="37.5" cy="37.5" r="33.5" fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+                <circle cx="33.5" cy="33.5" r="33.5" fill="#12C890" style="mix-blend-mode:darken"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M27.567 33.507l7.652 8.81L46.55 26.683"/>
+                <path stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M29.567 36.507l7.652 8.81L48.55 29.683"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="368" viewBox="0 0 500 368">
+    <defs>
+        <filter id="a" width="252.1%" height="213.5%" x="-76%" y="-56.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="b" width="252.1%" height="213.5%" x="-76%" y="-56.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="c" width="252.1%" height="213.5%" x="-76%" y="-56.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="d" width="235.4%" height="241.9%" x="-67.1%" y="-71%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="transparent" d="M0 18h500v350H0z"/>
+        <g stroke="#0C4171" stroke-width="4">
+            <g opacity=".4">
+                <g filter="url(#a)" opacity=".3" transform="translate(221 52)">
+                    <path fill="#FFF" d="M24 2.4c-12.15 0-22 9.85-22 22v144c0 12.15 9.85 22 22 22h96c12.15 0 22-9.85 22-22V46.492L97.394 2.4H24z"/>
+                    <path d="M139.172 46.4L98 5.228V46.4h41.172z"/>
+                </g>
+                <g filter="url(#b)" transform="translate(221 82)">
+                    <path fill="#FFF" d="M24 2.4c-12.15 0-22 9.85-22 22v144c0 12.15 9.85 22 22 22h96c12.15 0 22-9.85 22-22V46.492L97.394 2.4H24z"/>
+                    <path d="M139.172 46.4L98 5.228V46.4h41.172z"/>
+                </g>
+            </g>
+            <g filter="url(#c)" transform="translate(191 111)">
+                <path fill="#FFF" d="M24 2.4c-12.15 0-22 9.85-22 22v144c0 12.15 9.85 22 22 22h96c12.15 0 22-9.85 22-22V46.492L97.394 2.4H24z"/>
+                <path d="M139.172 46.4L98 5.228V46.4h41.172z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.6 65.2h38.993M21.6 79.6h38.993M21.6 94h38.993M21.6 108.4h38.993"/>
+            </g>
+        </g>
+        <g stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" filter="url(#d)" transform="translate(136 149)">
+            <circle cx="103" cy="58" r="58" fill="#FFF" fill-opacity=".9"/>
+            <path d="M61.389 99.058l-55.407 55.62"/>
+        </g>
+        <g stroke="#12C890" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" transform="translate(131 145)">
+            <circle cx="103" cy="58" r="58" fill="#12C890" style="mix-blend-mode:darken"/>
+            <path d="M61.389 99.058l-55.407 55.62" style="mix-blend-mode:darken"/>
+        </g>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M221 202.222L234.302 218 254 190"/>
+        <path stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M222 205.222L235.302 221 255 193"/>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+    <defs>
+        <filter id="a" width="231.1%" height="237.3%" x="-65.6%" y="-68%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="b" width="449.2%" height="204.2%" x="-175.4%" y="-51.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="27.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="transparent" d="M0 0h500v350H0z"/>
+        <g filter="url(#a)" transform="translate(129 120)">
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M65.296 57.02V3.355h35.913v53.667l57.6 91.725A8 8 0 0 1 152.036 161H14.47a8 8 0 0 1-6.775-12.254L65.296 57.02z"/>
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M118.396 84.39l40.414 64.356A8 8 0 0 1 152.035 161H14.47a8 8 0 0 1-6.775-12.254L45.27 88.912c6.585-4.238 13.012-5.745 19.281-4.522 9.404 1.835 20.256 10.512 34.987 6.173 9.82-2.892 16.107-4.95 18.86-6.173z"/>
+            <path stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M53.87 3.354h57.85"/>
+            <ellipse cx="81.62" cy="67.083" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" rx="3.265" ry="3.354"/>
+            <ellipse cx="83.253" cy="41.927" fill="#0C4171" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" rx="1.632" ry="1.677"/>
+            <path fill="#12C890" d="M112.396 79.39l40.414 64.356A8 8 0 0 1 146.035 156H8.47a8 8 0 0 1-6.775-12.254L39.27 83.912c6.585-4.238 13.012-5.745 19.281-4.522 9.404 1.835 20.256 10.512 34.987 6.173 9.82-2.892 16.107-4.95 18.86-6.173z" style="mix-blend-mode:darken"/>
+        </g>
+        <g filter="url(#b)" transform="translate(308 69)">
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M13.158 193.197V3.35h36.185v189.846c0 9.992-8.1 18.092-18.092 18.092-9.992 0-18.093-8.1-18.093-18.092z"/>
+            <path fill="#FFF" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M49.343 89.385v103.812c0 9.992-8.1 18.092-18.092 18.092-9.992 0-18.093-8.1-18.093-18.092V85.577c4.668.305 9.948 1.574 15.842 3.808 5.894 2.233 12.675 2.233 20.343 0z"/>
+            <path stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M1.645 3.35h58.288"/>
+            <ellipse cx="29.606" cy="67.011" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" rx="3.29" ry="3.351"/>
+            <ellipse cx="31.251" cy="41.882" stroke="#0C4171" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" rx="1.645" ry="1.675"/>
+            <path fill="#208CED" d="M46.343 86.385v103.812c0 9.992-8.1 18.092-18.092 18.092-9.992 0-18.093-8.1-18.093-18.092V82.577c4.668.305 9.948 1.574 15.842 3.808 5.894 2.233 12.675 2.233 20.343 0z" style="mix-blend-mode:darken"/>
+        </g>
+    </g>
+</svg>
